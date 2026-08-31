@@ -180,7 +180,7 @@
 <style scoped lang="scss">
   /* 登录页：全屏背景图 */
   .login-page {
-    background: url('@base/assets/login_background.jpg') no-repeat center center;
+    background: url('@/assets/login_background.jpg') no-repeat center center;
     background-size: 100% 100%;
     background-color: #fff;
     min-height: 100vh;
@@ -202,7 +202,7 @@
   .login-image {
     width: 55%;
     height: 100%;
-    background: url('@base/assets/login_tip.png') no-repeat center center;
+    background: url('@/assets/login_tip.png') no-repeat center center;
     background-size: cover;
   }
 
