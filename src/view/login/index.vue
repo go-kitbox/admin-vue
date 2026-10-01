@@ -18,7 +18,7 @@
             $GIN_VUE_ADMIN.appName
           }}</b>
           <p class="text-center text-sm text-[#8c89a4] mt-2">
-            AI-Meva 全球首个 AI 伴侣 + Web3 创业平台
+            娱乐平台，全网首选，专业服务，安全可靠
           </p>
         </div>
         <el-form
@@ -178,8 +178,12 @@
 </script>
 
 <style scoped lang="scss">
-  /* 登录页：全屏背景图 */
+  /* 登录页：全屏背景图，登录容器上下左右居中 */
   .login-page {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    width: 100%;
     background: url('@/assets/login_background.jpg') no-repeat center center;
     background-size: 100% 100%;
     background-color: #fff;
